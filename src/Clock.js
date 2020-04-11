@@ -1,4 +1,4 @@
-import React, { component, Component } from 'react';
+import React, { Component } from 'react';
 // import Digitalclock from './Digitalclock';
 // import Analogclock from './Analogclock';
 import Logger from './Logger';

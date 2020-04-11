@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo-white.png';
 import './App.css';
 import $ from 'jquery';
 import {API} from './backend';

@@ -53,7 +53,7 @@ class Login extends Component {
         if(this.handleValidation()){
                 var registerArray = JSON.parse(localStorage.getItem('sigup-user')) || [];
                 for(const signupData of registerArray){            
-                    if(signupData.email == this.state.fields.email && signupData.password == this.state.fields.password){
+                    if(signupData.email === this.state.fields.email && signupData.password === this.state.fields.password){
                         toast.success("Successfull login !");
                         localStorage.setItem('login-user',JSON.stringify(this.state.fields));
                         this.props.history.push('/');

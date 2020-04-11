@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button, Navbar,Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
+import { Navbar,Nav, NavDropdown,} from 'react-bootstrap';
 
 class Navbars extends Component {
     render() {
@@ -15,7 +14,7 @@ class Navbars extends Component {
                 {/* <Navbar.Brand href="/">
                     <img src="public/logo192.png"/>
                     React-Bootstrap</Navbar.Brand> */}
-                    <Navbar.Brand className="mx-5" href="#home">
+                    <Navbar.Brand className="mx-5" href="/">
                         <img
                             alt=""
                             src="/logo192.png"
